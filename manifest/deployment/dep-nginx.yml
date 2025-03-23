@@ -22,10 +22,10 @@ spec:
         app: nginx
     spec:
       containers:
-      - name: pythonappp
-        image: vinaay/pythonapp:v7
+      - name: nginx
+        image: nginx
         ports:
-        - containerPort: 8002
+        - containerPort: 80
         resources:
           requests:
             cpu: "50m"
